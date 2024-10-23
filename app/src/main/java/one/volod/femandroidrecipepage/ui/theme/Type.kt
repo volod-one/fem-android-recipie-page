@@ -2,9 +2,19 @@ package one.volod.femandroidrecipepage.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import one.volod.femandroidrecipepage.R
+
+val OutfitFontFamily = FontFamily(
+    Font(R.font.outfit)
+)
+
+val YoungSerifFontFamily = FontFamily(
+    Font(R.font.young_serif)
+)
 
 // Set of Material typography styles to start with
 val Typography = Typography(
