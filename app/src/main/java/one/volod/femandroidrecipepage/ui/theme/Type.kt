@@ -9,7 +9,15 @@ import androidx.compose.ui.unit.sp
 import one.volod.femandroidrecipepage.R
 
 val OutfitFontFamily = FontFamily(
-    Font(R.font.outfit)
+    Font(R.font.outfit_black, FontWeight.Black),
+    Font(R.font.outfit_bold, FontWeight.Bold),
+    Font(R.font.outfit_extra_bold, FontWeight.ExtraBold),
+    Font(R.font.outfit_extra_light, FontWeight.ExtraLight),
+    Font(R.font.outfit_light, FontWeight.Light),
+    Font(R.font.outfit_medium, FontWeight.Medium),
+    Font(R.font.outfit_regular, FontWeight.Normal),
+    Font(R.font.outfit_semi_bold, FontWeight.SemiBold),
+    Font(R.font.outfit_thin, FontWeight.Thin),
 )
 
 val YoungSerifFontFamily = FontFamily(

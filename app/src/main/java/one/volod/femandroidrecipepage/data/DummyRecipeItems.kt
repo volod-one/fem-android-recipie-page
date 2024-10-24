@@ -17,7 +17,7 @@ object DummyRecipeItems {
             ),
             ingredients = RecipeItem.Ingredients(
                 listOf(
-                    "Ingredients 2-3 large eggs",
+                    "2-3 large eggs",
                     "Salt, to taste",
                     "Pepper, to taste",
                     "1 tablespoon of butter or oil",
