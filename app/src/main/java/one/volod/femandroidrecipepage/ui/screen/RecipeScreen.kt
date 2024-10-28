@@ -14,7 +14,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.tooling.preview.PreviewScreenSizes
 import androidx.compose.ui.unit.dp
 import one.volod.femandroidrecipepage.data.DummyRecipeItems
 import one.volod.femandroidrecipepage.model.RecipeItem
@@ -39,6 +38,7 @@ internal fun RecipeScreen(
             // Image
             item {
                 Image(
+                    modifier = Modifier.fillMaxWidth(),
                     painter = painterResource(recipeItem.image),
                     contentDescription = null,
                 )
@@ -94,7 +94,7 @@ internal fun RecipeScreen(
     }
 }
 
-@Preview(heightDp = 1000)
+@Preview(showBackground = true)
 @Composable
 private fun RecipeScreen_Preview() {
     MaterialTheme {
